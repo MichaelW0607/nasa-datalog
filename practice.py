@@ -18,10 +18,9 @@ plt.axis([-50, 25, 5, 9])
 plt.plot(a, b)
 plt.show()
 
-plt.title(“My Graph”)
-plt.xlabel(“Array A”)
-plt.ylabel(“Array B”)
+plt.title("My Graph")
+plt.xlabel("Array A")
+plt.ylabel("Array B")
 plt.plot(a, b)
 plt.show()
-
 
