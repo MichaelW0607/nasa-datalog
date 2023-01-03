@@ -19,6 +19,6 @@ ip_adresses_counter = Counter(ip_addresses)
 print(ip_adresses_counter.keys())
 print(ip_adresses_counter.values())
 
-plt.bar(ip_addresses.keys(), ip_addresses.values())
+plt.bar(ip_adresses_counter.keys(), ip_adresses_counter.values())
 
 plt.show()
